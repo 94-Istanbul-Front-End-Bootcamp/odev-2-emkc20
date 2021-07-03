@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hafta 2 Gun 2</title>
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <button onclick="fetchData()">Getir</button>
+        <!--Todo-->
+        <div style="margin: 10px 0;">
+        <label for="checbox" id="gizle" style="display: none;">18 yaşından büyük olan kullanıcıları seç</label>
+        <input type="checkbox" name="" id="checkbox" style="display: none;" onclick="filterData('age')">
+        </div>
+        <div style="margin: 10px 0;">
+        <label for="inputtext" id="gizle2" style="display: none;">İsmi Aharfi ile başlayan kullanıcıları sırala.</label>
+        <input type="text" style="display: none;" id="inputtext" maxlength="1" onkeyup="changeText(this.value)" >
+        </div>
+        
+        <label for="filterButton" id="gizle3"  style="display: none;" >Filtreleme işlemlerini gerçekleştir.</label>
+        <button onclick="filterData('filtrele')" id="filterButton" style="display: none;">Filtrele</button>
+        <ul class="list">
+            
+        </ul>
+    </div>
+    <script src="index.js"></script>
+   
+</body>
+
+</html>
+

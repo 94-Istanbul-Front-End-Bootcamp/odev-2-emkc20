@@ -1,10 +1,5 @@
 # Ödev 2
 
-## Özet açıklama:
-Hafta 2 Gün 2 örneğindeki filtre özelliğini geliştirmeniz beklenmektedir.
-İlgili repo ve branch'e aşağıdaki link ile ulaşabilirsiniz.
-https://github.com/94-Istanbul-Front-End-Bootcamp/examples-in-lessons/tree/hafta-2-gun-2
-
 ## Filtreleme seçenekleri: 
     * Reşit olan kullanıcıları listlemek.
         - Checkbox kullanılmalı.

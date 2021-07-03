@@ -1,0 +1,12 @@
+.list {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    padding: none;
+    padding: unset;
+    width: 62%;
+    margin: 45px auto;
+}
+.wrapper {
+    text-align: center;
+}
